@@ -11,7 +11,7 @@ export const data = [
         name: "Holiday reservation website",
         image: Booki,
         github: "https://github.com/LauraVongsy/booki.git",
-        live: "lv-booki.netlify.app",
+        live: "https://lv-booki.netlify.app",
     },
     {
         id: 2,
@@ -24,8 +24,8 @@ export const data = [
         id: 3,
         name: "Sofas e-commerce website",
         image: kanap,
-        github: "https://github.com/LauraVongsy/kanap-backend.git",
-        live: "https://lv-kanap.netlify.app",
+        github: "https://github.com/LauraVongsy/kanap-frontend.git",
+        live: "https://lv-kanap.netlify.app/html",
     },
     {
         id: 4,
@@ -38,7 +38,7 @@ export const data = [
         id: 5,
         name: "Intranet social network app",
         image: groupomania,
-        github: "https://github.com/LauraVongsy/groupomania-backend.git",
+        github: "https://github.com/LauraVongsy/groupomania-frontend.git",
         live: "https://lv-groupomania.netlify.app",
     },
     {
