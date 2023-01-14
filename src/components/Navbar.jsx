@@ -121,7 +121,9 @@ const Navbar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="/"
+                            href="https://www.linkedin.com/in/laura-vongsy-dev-web/"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Linkedin <FaLinkedin size={30} />
                         </a>
@@ -129,7 +131,9 @@ const Navbar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="/"
+                            href="https://github.com/LauraVongsy"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Github <FaGithub size={30} />
                         </a>
@@ -137,7 +141,9 @@ const Navbar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="/"
+                            href="mailto:vongsy.laura.pro@gmail.com"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Email <HiOutlineMail size={30} />
                         </a>
@@ -145,7 +151,9 @@ const Navbar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
                         <a
                             className="flex justify-between items-center w-full text-gray-300"
-                            href="/"
+                            href="https://drive.google.com/file/d/12nHcM9ouW1E3WfQu6rC5XIegQc4yWsv_/view?usp=share_link"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Resume <BsFillPersonLinesFill size={30} />
                         </a>
