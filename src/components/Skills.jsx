@@ -1,13 +1,13 @@
 import React from "react";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import javascript from "../assets/javascript.png";
-import node from "../assets/node.png";
-import react from "../assets/react.png";
-import mongo from "../assets/mongo.png";
-import tailwind from "../assets/tailwind.png";
-import github from "../assets/github.png";
-import fireBase from "../assets/firebase.png";
+import html from "../assets/skills/html.png";
+import css from "../assets/skills/css.png";
+import javascript from "../assets/skills/javascript.png";
+import node from "../assets/skills/node.png";
+import react from "../assets/skills/react.png";
+import mongo from "../assets/skills/mongo.png";
+import tailwind from "../assets/skills/tailwind.png";
+import github from "../assets/skills/github.png";
+import fireBase from "../assets/skills/firebase.png";
 
 const Skills = () => {
     return (

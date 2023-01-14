@@ -1,9 +1,9 @@
-import Booki from "../assets/Booki.png";
-import Ohmyfood from "../assets/Ohmyfood.jpg";
-import monsters from "../assets/monsters.png";
-import kanap from "../assets/KANAP.png";
-import Piiquante from "../assets/piiquante.png";
-import groupomania from "../assets/groupomania.png";
+import Booki from "../assets/work/booki.png";
+import Ohmyfood from "../assets/work/ohmyfood.png";
+import monsters from "../assets/work/monsters.png";
+import kanap from "../assets/work/kanap.png";
+import Piiquante from "../assets/work/piiquante.png";
+import groupomania from "../assets/work/groupomania.png";
 
 export const data = [
     {
@@ -43,7 +43,7 @@ export const data = [
     },
     {
         id: 6,
-        name: "Réalisation d'un rolodex",
+        name: "Réalisation d'un réseau social d'entreprise",
         image: monsters,
         github: "https://github.com/LauraVongsy/monsters-rolodex.git",
         live: "https://lv-monsters-rolodex.netlify.app",
