@@ -31,9 +31,9 @@ const About = () => {
                             that would suit me the best, and this is how I got
                             interested in Web Development. <br></br> I
                             discovered a whole new world, full of challenges and
-                            full of opportunities, and I was hooked!<br></br>{" "}
+                            full of opportunities, and I was hooked!<br></br>
                             Soon after, I subscribed to an online Web
-                            Development class with Openclassrooms, and 6 month
+                            Development class with Openclassrooms, and 6 months
                             later I graduated!<br></br>I rapidly acquired skills
                             in HTML, CSS, Sass and Javascript. I then worked on
                             APIs and I learned to code with, Node Js, Express
