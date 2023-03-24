@@ -160,6 +160,53 @@ const Navbar = () => {
                     </li>
                 </ul>
             </div>
+            {/* Social icons mobile */}
+            {nav && (
+                <div className="block md:hidden fixed bottom-0 right-0 left-0">
+                    <ul className="flex flex-row">
+                        <li className=" h-[60px] flex justify-between items-center bg-blue-600">
+                            <a
+                                className="flex justify-between items-center w-full text-gray-300"
+                                href="https://www.linkedin.com/in/laura-vongsy-dev-web/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaLinkedin size={30} />
+                            </a>
+                        </li>
+                        <li className=" h-[60px] flex justify-between items-center bg-[#333333]">
+                            <a
+                                className="flex justify-between items-center w-full text-gray-300"
+                                href="https://github.com/LauraVongsy"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <FaGithub size={30} />
+                            </a>
+                        </li>
+                        <li className=" h-[60px] flex justify-between items-center bg-[#6fc2b0]">
+                            <a
+                                className="flex justify-between items-center w-full text-gray-300"
+                                href="mailto:vongsy.laura.pro@gmail.com"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <HiOutlineMail size={30} />
+                            </a>
+                        </li>
+                        <li className=" h-[60px] flex justify-between items-center bg-[#565f69]">
+                            <a
+                                className="flex justify-between items-center w-full text-gray-300"
+                                href="https://drive.google.com/file/d/12nHcM9ouW1E3WfQu6rC5XIegQc4yWsv_/view?usp=share_link"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <BsFillPersonLinesFill size={30} />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            )}
         </div>
     );
 };
