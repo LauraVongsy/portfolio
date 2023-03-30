@@ -1,8 +1,7 @@
-import { React, useContext } from "react";
-import { Text, LanguageContext } from "../containers/Language";
+import React from "react";
+import { Text } from "../containers/Language";
 
 const About = () => {
-    const { dictionary } = useContext(LanguageContext);
     return (
         <div
             name="about"

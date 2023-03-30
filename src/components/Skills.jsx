@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, LanguageContext } from "../containers/Language";
+import { Text } from "../containers/Language";
 
 import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.png";

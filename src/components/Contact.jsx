@@ -1,5 +1,5 @@
-import { React, useContext } from "react";
-import { Text, LanguageContext } from "../containers/Language";
+import React from "react";
+import { Text } from "../containers/Language";
 
 const Contact = () => {
     return (

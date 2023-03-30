@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, LanguageContext } from "../containers/Language";
+import { Text } from "../containers/Language";
 
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";

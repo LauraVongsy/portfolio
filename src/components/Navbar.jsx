@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Text, LanguageContext } from "../containers/Language";
+import { Text } from "../containers/Language";
 
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import "./logo-style.css";
