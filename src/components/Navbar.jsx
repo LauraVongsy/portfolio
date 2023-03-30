@@ -1,10 +1,13 @@
 import React, { useState } from "react";
+import { Text, LanguageContext } from "../containers/Language";
+
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from "react-icons/fa";
 import "./logo-style.css";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 import { Link } from "react-scroll";
+import LanguageSelector from "./LanguageSelector";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -18,25 +21,26 @@ const Navbar = () => {
             </div>
 
             {/* menu */}
+
             <ul className="hidden md:flex">
                 <li>
                     <Link to="home" smooth={true} duration={500}>
-                        Home
+                        <Text tid="navbarHome" />
                     </Link>
                 </li>
                 <li>
                     <Link to="about" smooth={true} duration={500}>
-                        About
+                        <Text tid="navbarAbout" />
                     </Link>
                 </li>
                 <li>
                     <Link to="skills" smooth={true} duration={500}>
-                        Skills
+                        <Text tid="navbarSkills" />
                     </Link>
                 </li>
                 <li>
                     <Link to="work" smooth={true} duration={500}>
-                        Work
+                        <Text tid="navbarWork" />
                     </Link>
                 </li>
                 <li>
@@ -52,6 +56,7 @@ const Navbar = () => {
             </div>
 
             {/* Mobile menu */}
+            <LanguageSelector />
             <ul
                 className={
                     !nav
@@ -66,7 +71,7 @@ const Navbar = () => {
                         smooth={true}
                         duration={500}
                     >
-                        Home
+                        <Text tid="navbarHome" />
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
@@ -77,7 +82,7 @@ const Navbar = () => {
                         smooth={true}
                         duration={500}
                     >
-                        About
+                        <Text tid="navbarAbout" />
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
@@ -88,7 +93,7 @@ const Navbar = () => {
                         smooth={true}
                         duration={500}
                     >
-                        Skills
+                        <Text tid="navbarSkills" />
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
@@ -99,7 +104,7 @@ const Navbar = () => {
                         smooth={true}
                         duration={500}
                     >
-                        Work
+                        <Text tid="navbarWork" />
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
@@ -155,7 +160,8 @@ const Navbar = () => {
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Resume <BsFillPersonLinesFill size={30} />
+                            <Text tid="navbarResume" />{" "}
+                            <BsFillPersonLinesFill size={30} />
                         </a>
                     </li>
                 </ul>

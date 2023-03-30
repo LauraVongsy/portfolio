@@ -1,4 +1,6 @@
 import React from "react";
+import { Text, LanguageContext } from "../containers/Language";
+
 import html from "../assets/skills/html.png";
 import css from "../assets/skills/css.png";
 import javascript from "../assets/skills/javascript.png";
@@ -16,10 +18,10 @@ const Skills = () => {
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full py-20">
                 <div>
                     <p className="text-4xl font-bold inline border-b-4 border-pink-600 ">
-                        Skills
+                        <Text tid="skills" />
                     </p>
                     <p className="py-4">
-                        These are the technologies I've worked with
+                        <Text tid="skillsTechno" />
                     </p>
                 </div>
 

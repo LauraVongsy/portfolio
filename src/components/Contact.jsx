@@ -1,4 +1,5 @@
-import React from "react";
+import { React, useContext } from "react";
+import { Text, LanguageContext } from "../containers/Language";
 
 const Contact = () => {
     return (
@@ -16,8 +17,7 @@ const Contact = () => {
                         Contact
                     </p>
                     <p className="text-gray-300 py-4">
-                        Submit the form below or shoot me an email -
-                        vongsy.laura.pro@gmail.com
+                        <Text tid="contactForm" />
                     </p>
                 </div>
                 <input
@@ -39,7 +39,7 @@ const Contact = () => {
                     placeholder="Message"
                 ></textarea>
                 <button className="text-white border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center">
-                    Let's Collaborate
+                    <Text tid="contactEnd" />
                 </button>
             </form>
         </div>

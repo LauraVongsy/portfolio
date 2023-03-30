@@ -1,4 +1,6 @@
 import React from "react";
+import { Text, LanguageContext } from "../containers/Language";
+
 import { data } from "../data/data.js";
 
 const Work = () => {
@@ -11,9 +13,11 @@ const Work = () => {
             <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full py-20">
                 <div className="pb-8">
                     <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">
-                        Work
+                        <Text tid="work" />
                     </p>
-                    <p className="py-6"> Check out some of my recent work</p>
+                    <p className="py-6">
+                        <Text tid="workIntro" />{" "}
+                    </p>
                 </div>
 
                 {/* container for projects */}
@@ -29,7 +33,7 @@ const Work = () => {
                             {/* Hover effect for images */}
                             <div className="opacity-0 group-hover:opacity-100 ">
                                 <span className="text-2xl font bold text-white tracking-wider ">
-                                    {item.name}
+                                    <Text tid={item.name} />
                                 </span>
                                 <div className="pt-8 text-center ">
                                     {/* eslint-disable-next-line */}
